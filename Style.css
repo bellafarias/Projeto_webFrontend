@@ -1,0 +1,121 @@
+/* Cor de fundo */
+body{
+    background-color: #eee9c7;
+} 
+
+/* estilização da margem superior */
+.navbar {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 40px;
+    background-color: #c34366;
+}
+
+/* estilização do titulo */
+h1{
+    color: #e6d1ca;
+    font-size: 30px;
+    display: flex;
+    font-family: 'Acme', sans-serif;
+    justify-content: center;
+}
+
+
+div.imga{
+    display: flex;
+}
+
+.imga{
+    justify-content: center;
+}
+
+.foto_perfil{
+    border: solid 10px #c34366;
+    border-radius: 100%;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color:#c34366;
+    border-radius: 80px;
+    margin-top: -10px;
+    padding: 1px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+p{
+    color: #e11b6b;;
+    font-size: 20px;
+    display: flex;
+    font-family: 'Acme', sans-serif;
+    justify-content: center;
+}
+
+.caixa3{
+    display: flex;
+    background-color:#c34366;
+    border-radius: 30px;
+    padding-left: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+}
+
+.caixa2{
+    display: flex;
+    background-color:#eba2a4;
+    border-radius: 30px;
+    padding-left: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+h2{
+    color: #e6d1ca;
+    font-size: 30px;
+    display: flex;
+    font-family: 'Acme', sans-serif;
+}
+
+footer{
+    display: flex;
+    background-color: #c34366;
+    height: 100px;
+    margin-top: 70px;
+    padding: 16px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    justify-content: center;
+}
+
+h3{
+    color: #e6d1ca;
+    font-size: 15px;
+    display: flex;
+    font-family: 'Acme', sans-serif;
+    justify-content: center;
+}
+
+/* modelo do formulário */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-style: solid #c34366;
+}
+
+.form{
+    margin-left: 250px;
+}
