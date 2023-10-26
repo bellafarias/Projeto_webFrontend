@@ -119,3 +119,16 @@ textarea {
 .form{
     margin-left: 250px;
 }
+
+/* estilização do botão de envio */
+input[type=submit] {
+    width: 15%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #c34366;
+    color: #e6d1ca;
+    font-weight: 200%;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
