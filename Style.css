@@ -5,7 +5,6 @@ body{
 
 /* estilização da margem superior */
 .navbar {
-
     display: flex;
     justify-content: space-evenly;
     margin-top: -10px;
@@ -21,23 +20,26 @@ h1{
     font-size: 30px;
     display: flex;
     font-family: 'Acme', sans-serif;
-    justify-content: center;
+    justify-content:flex-start;
 }
 
-
+/* display para a imagem se tornar resposivel */
 div.imga{
     display: flex;
 }
 
+/* localização da imagem de perfil pela div*/
 .imga{
     justify-content: center;
 }
 
+/* borda da imagem de perfil */
 .foto_perfil{
     border: solid 10px #c34366;
     border-radius: 100%;
 }
 
+/* caixa de texto para o nome pessoal */
 .caixa{
     display: flex;
     justify-content: center;
@@ -50,14 +52,7 @@ div.imga{
     margin-right: 400px;
 }
 
-p{
-    color: #e11b6b;;
-    font-size: 20px;
-    display: flex;
-    font-family: 'Acme', sans-serif;
-    justify-content: center;
-}
-
+/* formatação desenho da caixa do título */
 .caixa3{
     display: flex;
     background-color:#c34366;
@@ -68,6 +63,15 @@ p{
     justify-content: center;
 }
 
+/* formatação de título */
+h2{
+    color: #e6d1ca;
+    font-size: 30px;
+    display: flex;
+    font-family: 'Acme', sans-serif;
+}
+
+/* formatação desenho da caixa do título */
 .caixa2{
     display: flex;
     background-color:#eba2a4;
@@ -78,13 +82,78 @@ p{
     
 }
 
-h2{
-    color: #e6d1ca;
-    font-size: 30px;
+/* formatação do texto*/
+p{
+    color: #c34366;;
+    font-size: 20px;
     display: flex;
     font-family: 'Acme', sans-serif;
+    justify-content: center;
 }
 
+/* formatação da caixa desenhada de icons de redes sociais */
+.caixa4{
+    display: flex;
+    background-color:#eba2a4;
+    border-radius: 30px;
+    padding-left: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+}
+
+/* formatação de lugar dos icones das redes sociais */
+div.imgi{
+    display: flex;
+    justify-content: center;
+}
+
+/* Tamanho das imagens dos icones das redes sociais */
+.icones{
+    width: 15em;
+}
+
+/* distancia do formulario da margem esquerda e display(modelo de localização) do formulário*/
+.form{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 450px;
+}
+
+/* modelo do formulário */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 200%;
+    padding: 12px 20px;
+    margin: 15px;
+    box-sizing: border-box;
+    border-style: solid #c34366;
+}
+
+/* estilização do botão de envio */
+input[type=submit] {
+    width: 20%;
+    padding: 12px 18px;
+    box-sizing: content-box;
+    background-color: #c34366;
+    color: #e6d1ca;
+    font-weight: 200%;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* formatação de texto no rodapé da página */
+h3{
+    color: #e6d1ca;
+    font-size: 15px;
+    display: flex;
+    font-family: 'Acme', sans-serif;
+    justify-content: center;
+}
+
+/* formatação de Rodapé da página */
 footer{
     display: flex;
     background-color: #c34366;
@@ -95,40 +164,4 @@ footer{
     margin-left: -8px;
     margin-right: -8px;
     justify-content: center;
-}
-
-h3{
-    color: #e6d1ca;
-    font-size: 15px;
-    display: flex;
-    font-family: 'Acme', sans-serif;
-    justify-content: center;
-}
-
-/* modelo do formulário */
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 10px;
-    box-sizing: border-box;
-    border-style: solid #c34366;
-}
-
-.form{
-    margin-left: 250px;
-}
-
-/* estilização do botão de envio */
-input[type=submit] {
-    width: 15%;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    background-color: #c34366;
-    color: #e6d1ca;
-    font-weight: 200%;
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
 }
